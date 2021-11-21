@@ -1,0 +1,92 @@
+
+.w3-theme-lime-l5 {color:#000 !important; background-color:#fcfdf3 !important}
+.w3-theme-lime-l4 {color:#000 !important; background-color:#f5f8d7 !important}
+.w3-theme-lime-l3 {color:#000 !important; background-color:#eaf1af !important}
+.w3-theme-lime-l2 {color:#000 !important; background-color:#e0ea87 !important}
+.w3-theme-lime-l1 {color:#000 !important; background-color:#d6e35f !important}
+.w3-theme-lime-d1 {color:#fff !important; background-color:#c1d325 !important}
+.w3-theme-lime-d2 {color:#fff !important; background-color:#acbb21 !important}
+.w3-theme-lime-d3 {color:#fff !important; background-color:#96a41d !important}
+.w3-theme-lime-d4 {color:#fff !important; background-color:#818c19 !important}
+.w3-theme-lime-d5 {color:#fff !important; background-color:#6b7515 !important}
+
+.w3-theme-lime-light {color:#000 !important; background-color:#fcfdf3 !important}
+.w3-theme-lime-dark {color:#fff !important; background-color:#6b7515 !important}
+.w3-theme-lime-action {color:#fff !important; background-color:#6b7515 !important}
+
+.w3-theme-lime {color:#fff !important; background-color:#cddc39 !important}
+.w3-text-theme-lime {color:#cddc39 !important}
+.w3-border-theme-lime {border-color:#cddc39 !important}
+
+.w3-hover-theme-lime:hover {color:#fff !important; background-color:#818c19 !important}
+.w3-hover-text-theme-lime:hover {color:#cddc39 !important}
+.w3-hover-border-theme-lime:hover {border-color:#cddc39 !important}
+
+.w3-theme-lime-l5-to-d2 {
+    background-image: linear-gradient(to left, #fcfdf3,#e0ea87);
+}
+.w3-theme-lime-d2-to-l5 {
+    background-image: linear-gradient(to right,#fcfdf3,#e0ea87);
+}
+
+.w3-theme-gray-l5 {color:#000 !important; background-color:#f9f9f9 !important}
+.w3-theme-gray-l4 {color:#000 !important; background-color:#ececec !important}
+.w3-theme-gray-l3 {color:#000 !important; background-color:#d8d8d8 !important}
+.w3-theme-gray-l2 {color:#000 !important; background-color:#c5c5c5 !important}
+.w3-theme-gray-l1 {color:#000 !important; background-color:#b1b1b1 !important}
+.w3-theme-gray-d1 {color:#fff !important; background-color:#8e8e8e !important}
+.w3-theme-gray-d2 {color:#fff !important; background-color:#7e7e7e !important}
+.w3-theme-gray-d3 {color:#fff !important; background-color:#6f6f6f !important}
+.w3-theme-gray-d4 {color:#fff !important; background-color:#5f5f5f !important}
+.w3-theme-gray-d5 {color:#fff !important; background-color:#4f4f4f !important}
+
+.w3-theme-gray-light {color:#000 !important; background-color:#f9f9f9 !important}
+.w3-theme-gray-dark {color:#fff !important; background-color:#4f4f4f !important}
+.w3-theme-gray-action {color:#fff !important; background-color:#4f4f4f !important}
+
+.w3-theme-gray {color:#fff !important; background-color:#9e9e9e !important}
+.w3-text-theme-gray {color:#9e9e9e !important}
+.w3-border-theme-gray {border-color:#9e9e9e !important}
+
+.w3-hover-theme-gray:hover {color:#fff !important; background-color:#9e9e9e !important}
+.w3-hover-text-theme-gray:hover {color:#9e9e9e !important}
+.w3-hover-border-theme-gray:hover {border-color:#9e9e9e !important}
+
+.w3-theme-gray-l5-to-d2 {
+    background-image: linear-gradient(to left, #f9f9f9,#c5c5c5);
+}
+.w3-theme-gray-d2-to-l5 {
+    background-image: linear-gradient(to right,#f9f9f9,#c5c5c5);
+}
+
+
+.w3-theme-blue-l5 {color:#000 !important; background-color:#f8fcfe !important}
+.w3-theme-blue-l4 {color:#000 !important; background-color:#e7f5fb !important}
+.w3-theme-blue-l3 {color:#000 !important; background-color:#d0ecf7 !important}
+.w3-theme-blue-l2 {color:#000 !important; background-color:#b8e2f3 !important}
+.w3-theme-blue-l1 {color:#000 !important; background-color:#a1d9ef !important}
+.w3-theme-blue-d1 {color:#fff !important; background-color:#69c2e6 !important}
+.w3-theme-blue-d2 {color:#fff !important; background-color:#4ab6e0 !important}
+.w3-theme-blue-d3 {color:#fff !important; background-color:#2aa9db !important}
+.w3-theme-blue-d4 {color:#fff !important; background-color:#2092bf !important}
+.w3-theme-blue-d5 {color:#fff !important; background-color:#1b7a9f !important}
+
+.w3-theme-blue-light {color:#000 !important; background-color:#f8fcfe !important}
+.w3-theme-blue-dark {color:#fff !important; background-color:#1b7a9f !important}
+.w3-theme-blue-action {color:#fff !important; background-color:#1b7a9f !important}
+
+.w3-theme-blue {color:#fff !important; background-color:#87ceeb !important}
+.w3-text-theme-blue {color:#87ceeb !important}
+.w3-border-theme-blue {border-color:#87ceeb !important}
+
+.w3-hover-theme-blue:hover {color:#fff !important; background-color:#2092bf !important}
+.w3-hover-text-theme-blue:hover {color:#87ceeb !important}
+.w3-hover-border-theme-blue:hover {border-color:#87ceeb !important}
+
+
+.w3-theme-blue-l4-to-d2 {
+    background-image: linear-gradient(to left, #e7f5fb,#b8e2f3);
+}
+.w3-theme-blue-d2-to-l4 {
+    background-image: linear-gradient(to right,#e7f5fb,#b8e2f3);
+}

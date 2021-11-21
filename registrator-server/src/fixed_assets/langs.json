@@ -1,0 +1,60 @@
+{
+    "title":{
+        "en":"Welcome to Librisium",
+        "ro":"Bine ai venit la Librisium"
+    },
+    "lang_name":{
+        "en":"English",
+        "ro":"Romana",
+        "fr":"Francais",
+        "dk":"Dansk"
+    },
+    "lang_header":{
+        "en":"Change interface language",
+        "ro":"Schimba limba interfetei"
+    },
+    "user_signed_in":{
+        "en":"Signed in as",
+        "ro":"Autentificat ca"
+    },
+    "user_prefs_button":{
+        "en":"User Preferences",
+        "ro":"Setari utilizator"
+    },
+    "user_prefs_header":{
+        "en":"User Preferences",
+        "ro":"Setari utilizator"
+    },
+    "login":{
+        "en":"Login",
+        "ro":"Authentificare"
+    },
+    "logout":{
+        "en":"Logout",
+        "ro":"Logout"
+    },"library_button_goto":{
+        "en":"Library",
+        "ro":"Spatiul meu"
+    },"library_button_upload_lib":{
+        "en":"Preload",
+        "ro":"Preincarca"
+    },"library_button_add_lib_do":{
+        "en":"Add",
+        "ro":"Adauga"
+    },"library_button_add_lib_cancel":{
+        "en":"Cancel",
+        "ro":"Anuleaza"
+    },"editor_button_goto":{
+        "en":"Editor",
+        "ro":"Editor"
+    },"books_button_goto":{
+        "en":"Books",
+        "ro":"Carti"
+    },"context_mine_goto":{
+        "en":"Mine",
+        "ro":"Personal"
+    },"context_others_goto":{
+        "en":"Shared",
+        "ro":"Partajate"
+    }
+}

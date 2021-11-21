@@ -1,0 +1,73 @@
+[
+    {
+        "type":"public",
+        "what":"interface.getLang",
+        "query": {
+            "lang_id": "en"
+        }
+    },
+    {
+        "type":"auth",
+        "what":"UserData.create",
+        "query": {
+            "id": "auth0|612535a008febf006963643e",
+            "username": "test1 username",
+            "name_first": "test1 name_first",
+            "name_last": "test1 name_last",
+            "interface_lang": "en",
+            "email": "test1 email",
+            "active": true,
+            "icon_type": "google",
+            "icon_url": "test1 icon_url"
+        }
+    },
+    {
+        "type":"auth",
+        "what":"UserAccess.create",
+        "query": {
+            "id": "auth0|612535a008febf006963643e",
+            "api_allowed":["UserData.update","UserData.findById","UserData.delete","AppLibs.create","AppLibs.addLibToUser","AppLibs.findById","AppLibs.update","AppLibs.delete","LUsersLibs.update"]
+        }
+    },
+    {
+        "type":"auth",
+        "what":"UserData.update",
+        "query": {
+            "id": "auth0|612535a008febf006963643e",
+            "username": "test1 username updated"
+        }
+    },
+    {
+        "type":"auth",
+        "what":"UserData.findByRegex",
+        "query": {
+            "filter": {
+                "username": "test1.*"
+            }
+        }
+    },
+    {
+        "type":"auth",
+        "what":"UserData.findById",
+        "query": {
+            "id":"auth0|612535a008febf006963643e"
+        }
+    },
+    {
+        "type":"auth",
+        "what":"AppLibs.create",
+        "query": {
+            "type":"private",
+            "title": "Test Lib",
+            "icon_url": "temp_assets/lib_placeholder.svg"
+        }
+    },
+    {
+        "type":"auth",
+        "what":"LUsersLibs.update",
+        "query":{
+            "id":"614ca59956e0ccca5d2399cc",
+            "expanded":true
+        }
+    }
+]
