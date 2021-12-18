@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  dexterialregistratorapi:
+    image: dexterialregistratorapi
+    build:
+      context: registrator-server
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8101:8101
+  dexterialregistratorapp:
+    image: dexterialregistratorapp
+    build:
+      context: registrator-client
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8081:8081

@@ -6,6 +6,7 @@ const audience = process.env.AUTH0_AUDIENCE;
 const domain = process.env.AUTH0_DOMAIN;
 const serverPort = process.env.SERVER_PORT;
 const clientOriginUrl = process.env.CLIENT_ORIGIN_URL;
+const clientOrigins = [process.env.CLIENT_ORIGIN_URL_CORS];
 
 if (!audience) {
   throw new Error(
@@ -31,7 +32,7 @@ if (!clientOriginUrl) {
   );
 }
 
-const clientOrigins = ["http://localhost:8080"];
+
 
 module.exports = {
   audience,

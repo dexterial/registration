@@ -5,11 +5,11 @@
     <div class="w3-col m10 l10">
       <div class="w3-section">
         <h2>
-          {{getLangEntry('welcome')}}
+          #Main Info Page
         </h2>
       </div>
       <div class="w3-section">
-        <img class="w3-section" src='../assets/logo_linear.svg' alt='logo' style='width:100%;max-width:400px'>
+        <!-- <img class="w3-section" src='../assets/logo_linear.svg' alt='logo' style='width:100%;max-width:400px'> -->
       </div>
     </div>
    </div>

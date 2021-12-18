@@ -3,8 +3,9 @@
     <div class="w3-col m1 l1 w3-hide-small">&nbsp;</div>
     <div class="w3-col m10 l10">
       <!-- LOGO -->
-      <div class="w3-left w3-button w3-hover-lime">
-        <img id="logo" class="w3-image w3-left" alt="Librisium logo" src="./../assets/logo_linear.svg" />
+      <div class="w3-left w3-button w3-lime">
+        <!-- <img id="logo" class="w3-image w3-left" alt="Librisium logo" src="./../assets/logo_linear.svg" /> -->
+        {{getLangEntry('welcome')}} {{getLangEntry('title')}}
       </div>
       <!-- LANG SELECTOR -->
       <div class="w3-right">
